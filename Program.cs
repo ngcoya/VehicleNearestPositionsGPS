@@ -19,7 +19,7 @@ class Program
 
     static void Main()
     {
-        // Replace "path/to/your/vehicles.dat" with the actual path to the binary data file.
+        // Replace "_path/below/" with the actual path to your file.
         string dataFilePath = "C:/Users/ngcoy/OneDrive/Desktop/VehiclePositions.dat";
         string outputFilename = "C:/Users/ngcoy/OneDrive/Desktop/VehiclePositions.txt";
 
@@ -125,6 +125,8 @@ class Program
         }
         return System.Text.Encoding.ASCII.GetString(bytes.ToArray());
     }
+
+
 
     // Quadtree implementation
     class Quadtree
